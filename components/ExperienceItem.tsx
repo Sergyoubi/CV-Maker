@@ -30,7 +30,7 @@ const ExperienceItem = () => {
     setIsExperienceItemHovered(false);
   };
   return (
-    <Draggable bounds={{ left: -120, right: 120 }}>
+    <Draggable bounds={{ left: -115, right: 120 }}>
       <div
         className="w-[50%] border-2 border-transparent hover:border-dashed hover:border-rose-200 cursor-grab"
         onMouseEnter={handleMouseEnter}

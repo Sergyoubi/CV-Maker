@@ -28,7 +28,7 @@ const SkillsItem = () => {
   };
 
   return (
-    <Draggable bounds={{ left: -210, right: 250 }}>
+    <Draggable bounds={{ left: -185, right: 200 }}>
       <div
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
